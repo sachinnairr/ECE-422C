@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
         binding.fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String url = "https://api.openweathermap.org/data/2.5/onecall?lat=30.267153&lon=-97.743057&units=imperial&exclude=alerts,minutely&appid=475e7772b64a6e8961b09f1e82723abd";
+                String url = "TOKEN" ;
                 RequestQueue queue = Volley.newRequestQueue(MainActivity.this);
 
 
