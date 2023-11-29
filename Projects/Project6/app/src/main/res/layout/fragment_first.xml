@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstFragment">
+
+    <TextView
+        android:id="@+id/Day1"
+        android:layout_width="373dp"
+        android:layout_height="75dp"
+        android:text="Day1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="114dp" />
+
+    <TextView
+        android:id="@+id/Day2"
+        android:layout_width="373dp"
+        android:layout_height="75dp"
+        android:text="Day2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Day1" />
+
+    <TextView
+        android:id="@+id/Day3"
+        android:layout_width="373dp"
+        android:layout_height="75dp"
+        android:text="Day3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Day2" />
+
+    <TextView
+        android:id="@+id/Day4"
+        android:layout_width="373dp"
+        android:layout_height="75dp"
+        android:text="Day4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Day3" />
+
+    <TextView
+        android:id="@+id/Day5"
+        android:layout_width="373dp"
+        android:layout_height="75dp"
+        android:text="Day5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Day4" />
+
+    <TextView
+        android:id="@+id/Day6"
+        android:layout_width="373dp"
+        android:layout_height="75dp"
+        android:text="Day6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Day5" />
+
+    <TextView
+        android:id="@+id/Day7"
+        android:layout_width="373dp"
+        android:layout_height="75dp"
+        android:text="Day7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Day6" />
+
+
+    <ImageButton
+        android:id="@+id/currWeather"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/current"
+        android:background="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/hourlyWeather"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="164dp"
+        android:background="@null"
+        android:scaleType="fitXY"
+        android:src="@drawable/forecast"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.988"
+        app:layout_constraintStart_toStartOf="@+id/currWeather" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

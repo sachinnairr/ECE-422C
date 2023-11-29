@@ -1,0 +1,2 @@
+ /* Student Name: Sachin Nair, Lab Section: 17400 */
+I really would like to learn something involving parallel computing or something along those lines. Additionally, a game development project could be really fun and since were doing a unit on android, students could publish their projects if they wanted to

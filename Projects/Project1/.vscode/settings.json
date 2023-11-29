@@ -1,0 +1,8 @@
+{
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "/Users/happa2222/Downloads/stanford-postagger-full-2020-11-17/stanford-postagger-4.2.0.jar"
+    ]
+}
