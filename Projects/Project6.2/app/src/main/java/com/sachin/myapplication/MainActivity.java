@@ -18,9 +18,9 @@ import java.text.DecimalFormat;
 public class MainActivity extends AppCompatActivity {
 
 
-    private final String HourlyURL = "https://api.openweathermap.org/data/2.5/onecall?lat=30.267153&lon=-97.743057&units=imperial&exclude=current,minutely,daily,alerts&appid=475e7772b64a6e8961b09f1e82723abd";
-    private final String DailyURL = "https://api.openweathermap.org/data/2.5/onecall?lat=30.267153&lon=-97.743057&units=imperial&exclude=current,minutely,hourly,alerts&appid=475e7772b64a6e8961b09f1e82723abd";
-    private final String WholeURl =  "https://api.openweathermap.org/data/2.5/weather?lat=30.267153&lon=-97.743057&units=imperial&exclude=alerts,minutely&appid=475e7772b64a6e8961b09f1e82723abd";
+    private final String HourlyURL = "TOKEN";
+    private final String DailyURL = "TOKEN";
+    private final String WholeURl =  "TOKEN";
     TextView text;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
